@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.SpringOrm11ApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.403 s <<< FAILURE! - in com.example.demo.SpringOrm11ApplicationTest
+selectDeptTest  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.demo.layer2.Department.getDepartmentNumber()" because "dept" is null
+	at com.example.demo.SpringOrm11ApplicationTest.selectDeptTest(SpringOrm11ApplicationTest.java:37)
+
